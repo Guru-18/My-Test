@@ -1,0 +1,46 @@
+.createProductContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 80vh;
+    padding: 4vmax;
+}
+
+.createProductContainer>form {
+    padding: 20px;
+    box-shadow: 0 0 2px 2px #a1a1a1;
+    border-radius: 5px;
+    background-color: rgb(247, 136, 116);
+    width: 400px;
+    min-width: 300px;
+    box-sizing: border-box;
+}
+
+.createProductContainer>form>div {
+    margin: 20px;
+}
+
+.createProductContainer>form>div>input,
+.createProductContainer>form>div>textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    resize: vertical;
+}
+
+.createProductContainer>form>div>button {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background: rgb(244, 76, 47);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.createProductContainer>form>div>button:hover {
+    background: red;
+}

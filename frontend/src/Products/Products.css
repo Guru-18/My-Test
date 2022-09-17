@@ -1,0 +1,32 @@
+.productsContainer {
+    margin: 20px;
+}
+
+.productsContainer>table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.productsContainer>table td,
+.productsContainer>table th {
+    border: 1px solid #9a9999;
+    text-align: left;
+    min-width: 160px;
+    padding: 8px;
+}
+
+.productsContainer>table td:last-child,
+.productsContainer>table th:last-child {
+    width: 100px;
+}
+
+.productsContainer>table td:last-child>svg {
+    margin: auto 20px;
+    color: tomato;
+    cursor: pointer;
+}
+
+.productsContainer>table>tr:nth-child(even) {
+    background-color: #dddddd;
+}
